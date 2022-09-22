@@ -905,7 +905,6 @@ async def antiping(ctx, состояние:int=None, искл:str=None):
 keep_alive.keep_alive()
 
 
-client.run(os.environ.get('TOKEN'), reconnect=True)
-my_secret = os.environ['TOKEN']
+client.run('TOKEN', reconnect=True)
 
 
